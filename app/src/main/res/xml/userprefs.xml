@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:defaultValue="Default"
+        android:key="owner_name"
+        android:summary="Set owner name"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Owner Name" />
+    <Preference
+        android:defaultValue="Default picture"
+        android:key="owner_picture"
+        android:summary="Set owner picture"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Owner Picture" />
+</PreferenceScreen>
